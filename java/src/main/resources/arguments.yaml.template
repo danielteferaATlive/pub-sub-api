@@ -12,18 +12,18 @@ PUBSUB_HOST: api.pubsub.salesforce.com
 # Pub/Sub API Host
 PUBSUB_PORT: 7443
 # Your Salesforce Login URL
-LOGIN_URL: null
+LOGIN_URL: https://your-domain.my.salesforce.com/
 
 # For authentication, you can use either username/password or accessToken/tenantId types.
 # Either one of the combinations is required. Please specify `null` values to the unused type.
 # Your Salesforce Username
-USERNAME: null
+USERNAME: your_username_here
 # Your Salesforce Password
-PASSWORD: null
+PASSWORD: your_password_here
 # Your Salesforce org Tenant ID
-TENANT_ID: null
+TENANT_ID: your_tenant_id_here
 # Your Salesforce Session Token
-ACCESS_TOKEN: null
+ACCESS_TOKEN: your_access_token
 
 # =========================
 # Optional Configurations:
